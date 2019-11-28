@@ -1,0 +1,1123 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30AC11A3447EF09C9CB82E79 /* Pods_NeoStore_VIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB5DC73E01BCF02F9202E11 /* Pods_NeoStore_VIPER.framework */; };
+		F5264CA2237BF13C0012666B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5264CA1237BF13C0012666B /* AppDelegate.swift */; };
+		F5264CA4237BF13C0012666B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5264CA3237BF13C0012666B /* LoginView.swift */; };
+		F5264CA7237BF13C0012666B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5264CA5237BF13C0012666B /* Main.storyboard */; };
+		F5264CA9237BF13E0012666B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5264CA8237BF13E0012666B /* Assets.xcassets */; };
+		F5264CAC237BF13E0012666B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5264CAA237BF13E0012666B /* LaunchScreen.storyboard */; };
+		F53F0D61237C06E000105B73 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53F0D60237C06E000105B73 /* RegisterView.swift */; };
+		F53F0D63237C0F5D00105B73 /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53F0D62237C0F5D00105B73 /* RegisterInteractor.swift */; };
+		F53F0D65237C0FA300105B73 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53F0D64237C0FA300105B73 /* RegisterPresenter.swift */; };
+		F53F0D67237C103900105B73 /* RegisterEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53F0D66237C103900105B73 /* RegisterEntity.swift */; };
+		F53F0D69237C11C100105B73 /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53F0D68237C11C100105B73 /* RegisterRouter.swift */; };
+		F55272CD237D3758002F8AB1 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55272CC237D3758002F8AB1 /* Utilities.swift */; };
+		F55272CF237D3CC5002F8AB1 /* File1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55272CE237D3CC5002F8AB1 /* File1.swift */; };
+		F5577EDD23855A1700300CFA /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5577EDC23855A1700300CFA /* HomeInteractor.swift */; };
+		F5577EDF23855A2500300CFA /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5577EDE23855A2500300CFA /* HomePresenter.swift */; };
+		F5577EE123855A3500300CFA /* HomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5577EE023855A3500300CFA /* HomeEntity.swift */; };
+		F5577EE323855A4300300CFA /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5577EE223855A4300300CFA /* HomeRouter.swift */; };
+		F5577EE523855A4F00300CFA /* HomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5577EE423855A4F00300CFA /* HomeProtocol.swift */; };
+		F5577EE823857EBC00300CFA /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5577EE723857EBC00300CFA /* ForgotPasswordView.swift */; };
+		F5577EEA2385872B00300CFA /* ForgotPasswordEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5577EE92385872B00300CFA /* ForgotPasswordEntity.swift */; };
+		F55E8A60238E98C900DB1C89 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55E8A5F238E98C900DB1C89 /* ContainerVC.swift */; };
+		F55E8A62238E990E00DB1C89 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55E8A61238E990E00DB1C89 /* SideMenuVC.swift */; };
+		F55E8A64238E992B00DB1C89 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55E8A63238E992B00DB1C89 /* HomeVC.swift */; };
+		F568135D238292E000617DB2 /* RegisterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568135C238292E000617DB2 /* RegisterProtocol.swift */; };
+		F570F0BB2386688A00043B57 /* ForgotPasswordInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F570F0BA2386688A00043B57 /* ForgotPasswordInteractor.swift */; };
+		F570F0BD238668B300043B57 /* ForgotPasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F570F0BC238668B300043B57 /* ForgotPasswordPresenter.swift */; };
+		F570F0C1238668FD00043B57 /* Protocol_Forgot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F570F0C0238668FD00043B57 /* Protocol_Forgot.swift */; };
+		F570F0C323866A9F00043B57 /* ForgotPasswordRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F570F0C223866A9F00043B57 /* ForgotPasswordRouter.swift */; };
+		F573C569238D044C00297556 /* ProductListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573C568238D044C00297556 /* ProductListRouter.swift */; };
+		F573C56B238D047700297556 /* ProductListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573C56A238D047700297556 /* ProductListProtocol.swift */; };
+		F573C56D238D049E00297556 /* ProductListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573C56C238D049E00297556 /* ProductListInteractor.swift */; };
+		F573C56F238D04AD00297556 /* ProductListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573C56E238D04AD00297556 /* ProductListPresenter.swift */; };
+		F573C571238D479300297556 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573C570238D479300297556 /* ProductDetailView.swift */; };
+		F573C573238D47AA00297556 /* ProductDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573C572238D47AA00297556 /* ProductDetailInteractor.swift */; };
+		F573C575238D47E300297556 /* ProductDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573C574238D47E300297556 /* ProductDetailPresenter.swift */; };
+		F573C577238D47F300297556 /* ProductDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573C576238D47F300297556 /* ProductDetailEntity.swift */; };
+		F573C579238D480800297556 /* ProductDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573C578238D480800297556 /* ProductDetailRouter.swift */; };
+		F573C57B238D481A00297556 /* ProductDetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573C57A238D481A00297556 /* ProductDetailProtocol.swift */; };
+		F574BD1A2383F74B00179380 /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F574BD192383F74B00179380 /* FirstCollectionViewCell.swift */; };
+		F574BD1C2383F77700179380 /* HomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F574BD1B2383F77700179380 /* HomeVc.swift */; };
+		F574BD1E2383FC0D00179380 /* SecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F574BD1D2383FC0D00179380 /* SecondCollectionViewCell.swift */; };
+		F574BD202384040200179380 /* LoginEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F574BD1F2384040200179380 /* LoginEntity.swift */; };
+		F574BD2923842DEC00179380 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F574BD2823842DEC00179380 /* LoginInteractor.swift */; };
+		F574BD2B23842E0600179380 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F574BD2A23842E0600179380 /* LoginPresenter.swift */; };
+		F574BD2D23842E2700179380 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F574BD2C23842E2700179380 /* LoginRouter.swift */; };
+		F574BD3023842E5B00179380 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F574BD2F23842E5B00179380 /* Protocol.swift */; };
+		F57E3018238BAC4500430A33 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E3017238BAC4500430A33 /* MenuView.swift */; };
+		F57E301A238BAC5B00430A33 /* Menu_Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E3019238BAC5B00430A33 /* Menu_Interactor.swift */; };
+		F57E301C238BAC6900430A33 /* Menu_Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E301B238BAC6900430A33 /* Menu_Presenter.swift */; };
+		F57E301E238BAC7700430A33 /* MenuEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E301D238BAC7700430A33 /* MenuEntity.swift */; };
+		F57E3020238BAC8200430A33 /* MenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E301F238BAC8200430A33 /* MenuRouter.swift */; };
+		F57E3022238BAC8D00430A33 /* MenuProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E3021238BAC8D00430A33 /* MenuProtocol.swift */; };
+		F57E3024238BAF6E00430A33 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57E3023238BAF6E00430A33 /* MenuCell.xib */; };
+		F57E3026238BAF7C00430A33 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E3025238BAF7C00430A33 /* MenuCell.swift */; };
+		F57E3030238BC0C600430A33 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E302F238BC0C600430A33 /* ProductListView.swift */; };
+		F57E3032238BC11E00430A33 /* ProductListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57E3031238BC11E00430A33 /* ProductListCell.xib */; };
+		F57E3034238BC12800430A33 /* ProductListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E3033238BC12800430A33 /* ProductListCell.swift */; };
+		F57E3036238BCCDB00430A33 /* ProductListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E3035238BCCDB00430A33 /* ProductListEntity.swift */; };
+		F594044A2386A4E30022585E /* ChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59404492386A4E30022585E /* ChangePasswordView.swift */; };
+		F594044C2386A4F30022585E /* ChangePasswordInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F594044B2386A4F30022585E /* ChangePasswordInteractor.swift */; };
+		F594044E2386A5050022585E /* ChangePasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F594044D2386A5050022585E /* ChangePasswordPresenter.swift */; };
+		F59404502386A51B0022585E /* changePasswordRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F594044F2386A51B0022585E /* changePasswordRouter.swift */; };
+		F59404522386A5C30022585E /* ChangePasswordEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59404512386A5C30022585E /* ChangePasswordEntity.swift */; };
+		F59404542386A5D60022585E /* ChangePasswordProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59404532386A5D60022585E /* ChangePasswordProtocol.swift */; };
+		F5CFE21E2387C0750088CB71 /* SingletonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CFE21D2387C0750088CB71 /* SingletonManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BB09285FD588EDA58AC195D /* Pods-NeoStore_VIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoStore_VIPER.release.xcconfig"; path = "Target Support Files/Pods-NeoStore_VIPER/Pods-NeoStore_VIPER.release.xcconfig"; sourceTree = "<group>"; };
+		5BB5DC73E01BCF02F9202E11 /* Pods_NeoStore_VIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoStore_VIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		766885EDF2ABBF44C4B4582C /* Pods-NeoStore_VIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoStore_VIPER.debug.xcconfig"; path = "Target Support Files/Pods-NeoStore_VIPER/Pods-NeoStore_VIPER.debug.xcconfig"; sourceTree = "<group>"; };
+		F5264C9E237BF13C0012666B /* NeoStore_VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoStore_VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5264CA1237BF13C0012666B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5264CA3237BF13C0012666B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F5264CA6237BF13C0012666B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5264CA8237BF13E0012666B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5264CAB237BF13E0012666B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5264CAD237BF13E0012666B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F53F0D60237C06E000105B73 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		F53F0D62237C0F5D00105B73 /* RegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInteractor.swift; sourceTree = "<group>"; };
+		F53F0D64237C0FA300105B73 /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
+		F53F0D66237C103900105B73 /* RegisterEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterEntity.swift; sourceTree = "<group>"; };
+		F53F0D68237C11C100105B73 /* RegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
+		F55272CC237D3758002F8AB1 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		F55272CE237D3CC5002F8AB1 /* File1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File1.swift; sourceTree = "<group>"; };
+		F5577EDC23855A1700300CFA /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		F5577EDE23855A2500300CFA /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		F5577EE023855A3500300CFA /* HomeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEntity.swift; sourceTree = "<group>"; };
+		F5577EE223855A4300300CFA /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		F5577EE423855A4F00300CFA /* HomeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocol.swift; sourceTree = "<group>"; };
+		F5577EE723857EBC00300CFA /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		F5577EE92385872B00300CFA /* ForgotPasswordEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordEntity.swift; sourceTree = "<group>"; };
+		F55E8A5F238E98C900DB1C89 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		F55E8A61238E990E00DB1C89 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		F55E8A63238E992B00DB1C89 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		F568135C238292E000617DB2 /* RegisterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterProtocol.swift; sourceTree = "<group>"; };
+		F570F0BA2386688A00043B57 /* ForgotPasswordInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordInteractor.swift; sourceTree = "<group>"; };
+		F570F0BC238668B300043B57 /* ForgotPasswordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordPresenter.swift; sourceTree = "<group>"; };
+		F570F0C0238668FD00043B57 /* Protocol_Forgot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol_Forgot.swift; sourceTree = "<group>"; };
+		F570F0C223866A9F00043B57 /* ForgotPasswordRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordRouter.swift; sourceTree = "<group>"; };
+		F573C568238D044C00297556 /* ProductListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListRouter.swift; sourceTree = "<group>"; };
+		F573C56A238D047700297556 /* ProductListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListProtocol.swift; sourceTree = "<group>"; };
+		F573C56C238D049E00297556 /* ProductListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListInteractor.swift; sourceTree = "<group>"; };
+		F573C56E238D04AD00297556 /* ProductListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListPresenter.swift; sourceTree = "<group>"; };
+		F573C570238D479300297556 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		F573C572238D47AA00297556 /* ProductDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailInteractor.swift; sourceTree = "<group>"; };
+		F573C574238D47E300297556 /* ProductDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailPresenter.swift; sourceTree = "<group>"; };
+		F573C576238D47F300297556 /* ProductDetailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailEntity.swift; sourceTree = "<group>"; };
+		F573C578238D480800297556 /* ProductDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailRouter.swift; sourceTree = "<group>"; };
+		F573C57A238D481A00297556 /* ProductDetailProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailProtocol.swift; sourceTree = "<group>"; };
+		F574BD192383F74B00179380 /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		F574BD1B2383F77700179380 /* HomeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVc.swift; sourceTree = "<group>"; };
+		F574BD1D2383FC0D00179380 /* SecondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewCell.swift; sourceTree = "<group>"; };
+		F574BD1F2384040200179380 /* LoginEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEntity.swift; sourceTree = "<group>"; };
+		F574BD2823842DEC00179380 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		F574BD2A23842E0600179380 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		F574BD2C23842E2700179380 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		F574BD2F23842E5B00179380 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		F57E3017238BAC4500430A33 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		F57E3019238BAC5B00430A33 /* Menu_Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu_Interactor.swift; sourceTree = "<group>"; };
+		F57E301B238BAC6900430A33 /* Menu_Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu_Presenter.swift; sourceTree = "<group>"; };
+		F57E301D238BAC7700430A33 /* MenuEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuEntity.swift; sourceTree = "<group>"; };
+		F57E301F238BAC8200430A33 /* MenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRouter.swift; sourceTree = "<group>"; };
+		F57E3021238BAC8D00430A33 /* MenuProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuProtocol.swift; sourceTree = "<group>"; };
+		F57E3023238BAF6E00430A33 /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		F57E3025238BAF7C00430A33 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		F57E302F238BC0C600430A33 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		F57E3031238BC11E00430A33 /* ProductListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListCell.xib; sourceTree = "<group>"; };
+		F57E3033238BC12800430A33 /* ProductListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListCell.swift; sourceTree = "<group>"; };
+		F57E3035238BCCDB00430A33 /* ProductListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListEntity.swift; sourceTree = "<group>"; };
+		F59404492386A4E30022585E /* ChangePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordView.swift; sourceTree = "<group>"; };
+		F594044B2386A4F30022585E /* ChangePasswordInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordInteractor.swift; sourceTree = "<group>"; };
+		F594044D2386A5050022585E /* ChangePasswordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordPresenter.swift; sourceTree = "<group>"; };
+		F594044F2386A51B0022585E /* changePasswordRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changePasswordRouter.swift; sourceTree = "<group>"; };
+		F59404512386A5C30022585E /* ChangePasswordEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordEntity.swift; sourceTree = "<group>"; };
+		F59404532386A5D60022585E /* ChangePasswordProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordProtocol.swift; sourceTree = "<group>"; };
+		F5CFE21D2387C0750088CB71 /* SingletonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5264C9B237BF13C0012666B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30AC11A3447EF09C9CB82E79 /* Pods_NeoStore_VIPER.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80B131DB558765656E0FE1E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				766885EDF2ABBF44C4B4582C /* Pods-NeoStore_VIPER.debug.xcconfig */,
+				5BB09285FD588EDA58AC195D /* Pods-NeoStore_VIPER.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF5B1463D7C0485BB958F761 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BB5DC73E01BCF02F9202E11 /* Pods_NeoStore_VIPER.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F526490C2383E28000D4F100 /* STORYBOARDS */ = {
+			isa = PBXGroup;
+			children = (
+				F5264CA5237BF13C0012666B /* Main.storyboard */,
+			);
+			path = STORYBOARDS;
+			sourceTree = "<group>";
+		};
+		F52649102383E3AC00D4F100 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F5577ED4238542A900300CFA /* View */,
+				F5577ED3238542A600300CFA /* Interactor */,
+				F5577ED2238542A400300CFA /* Presenter */,
+				F5577ED1238542A200300CFA /* Entity */,
+				F5577ED0238542A000300CFA /* Router */,
+				F5577ECF2385429D00300CFA /* Protocol */,
+				F574BD192383F74B00179380 /* FirstCollectionViewCell.swift */,
+				F574BD1D2383FC0D00179380 /* SecondCollectionViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F5264C95237BF13C0012666B = {
+			isa = PBXGroup;
+			children = (
+				F5264CA0237BF13C0012666B /* NeoStore_VIPER */,
+				F5264C9F237BF13C0012666B /* Products */,
+				80B131DB558765656E0FE1E7 /* Pods */,
+				EF5B1463D7C0485BB958F761 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5264C9F237BF13C0012666B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5264C9E237BF13C0012666B /* NeoStore_VIPER.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5264CA0237BF13C0012666B /* NeoStore_VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				F5264CA1237BF13C0012666B /* AppDelegate.swift */,
+				F59404412386A4820022585E /* ChangePassword */,
+				F53F0D5F237C06C900105B73 /* Register */,
+				F52649102383E3AC00D4F100 /* Home */,
+				F53F0D5E237C02C800105B73 /* Login */,
+				F5577EE623857E2900300CFA /* ForgotPassword */,
+				F57E300F238BA92D00430A33 /* Drawer */,
+				F5CFE21C2387BF1F0088CB71 /* SingletonManager */,
+				F5CFE21D2387C0750088CB71 /* SingletonManager.swift */,
+				F57E3027238BC06B00430A33 /* ProductList */,
+				F573C560238D03DA00297556 /* ProductDetails */,
+				F55E8A5E238E981D00DB1C89 /* CustomMenu */,
+				F526490C2383E28000D4F100 /* STORYBOARDS */,
+				F5264CA8237BF13E0012666B /* Assets.xcassets */,
+				F5264CAA237BF13E0012666B /* LaunchScreen.storyboard */,
+				F5264CAD237BF13E0012666B /* Info.plist */,
+				F55272CC237D3758002F8AB1 /* Utilities.swift */,
+				F55272CE237D3CC5002F8AB1 /* File1.swift */,
+			);
+			path = NeoStore_VIPER;
+			sourceTree = "<group>";
+		};
+		F53F0D5E237C02C800105B73 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F574BD2723842DA900179380 /* View */,
+				F574BD2623842DA300179380 /* Interactor */,
+				F574BD2523842DA200179380 /* Presenter */,
+				F574BD2423842D9E00179380 /* Entity */,
+				F574BD2323842D9B00179380 /* Router */,
+				F574BD2E23842E4800179380 /* Protocol */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F53F0D5F237C06C900105B73 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				F5577EDB238542E800300CFA /* View */,
+				F5577EDA238542E200300CFA /* Interactor */,
+				F5577ED9238542DF00300CFA /* Presenter */,
+				F5577ED8238542DC00300CFA /* Entity */,
+				F5577ED7238542DA00300CFA /* Router */,
+				F5577ED5238542D400300CFA /* Protocol */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		F5577ECF2385429D00300CFA /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F5577EE423855A4F00300CFA /* HomeProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F5577ED0238542A000300CFA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F5577EE223855A4300300CFA /* HomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F5577ED1238542A200300CFA /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F5577EE023855A3500300CFA /* HomeEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F5577ED2238542A400300CFA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F5577EDE23855A2500300CFA /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F5577ED3238542A600300CFA /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F5577EDC23855A1700300CFA /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F5577ED4238542A900300CFA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F574BD1B2383F77700179380 /* HomeVc.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5577ED5238542D400300CFA /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F568135C238292E000617DB2 /* RegisterProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F5577ED7238542DA00300CFA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F53F0D68237C11C100105B73 /* RegisterRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F5577ED8238542DC00300CFA /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F53F0D66237C103900105B73 /* RegisterEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F5577ED9238542DF00300CFA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F53F0D64237C0FA300105B73 /* RegisterPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F5577EDA238542E200300CFA /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F53F0D62237C0F5D00105B73 /* RegisterInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F5577EDB238542E800300CFA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F53F0D60237C06E000105B73 /* RegisterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5577EE623857E2900300CFA /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				F570F0B92386682E00043B57 /* View */,
+				F570F0B82386682C00043B57 /* Interactor */,
+				F570F0B72386682900043B57 /* Presenter */,
+				F570F0B62386682700043B57 /* Entity */,
+				F570F0B52386682400043B57 /* Router */,
+				F570F0B42386680A00043B57 /* Protocol */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		F55E8A5E238E981D00DB1C89 /* CustomMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F55E8A5F238E98C900DB1C89 /* ContainerVC.swift */,
+				F55E8A61238E990E00DB1C89 /* SideMenuVC.swift */,
+				F55E8A63238E992B00DB1C89 /* HomeVC.swift */,
+			);
+			path = CustomMenu;
+			sourceTree = "<group>";
+		};
+		F570F0B42386680A00043B57 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F570F0C0238668FD00043B57 /* Protocol_Forgot.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F570F0B52386682400043B57 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F570F0C223866A9F00043B57 /* ForgotPasswordRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F570F0B62386682700043B57 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F5577EE92385872B00300CFA /* ForgotPasswordEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F570F0B72386682900043B57 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F570F0BC238668B300043B57 /* ForgotPasswordPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F570F0B82386682C00043B57 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F570F0BA2386688A00043B57 /* ForgotPasswordInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F570F0B92386682E00043B57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5577EE723857EBC00300CFA /* ForgotPasswordView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F573C560238D03DA00297556 /* ProductDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F573C567238D040100297556 /* View */,
+				F573C566238D040000297556 /* Interactor */,
+				F573C565238D03FD00297556 /* Presenter */,
+				F573C564238D03F600297556 /* Entity */,
+				F573C563238D03F300297556 /* Router */,
+				F573C562238D03F000297556 /* Protocol */,
+			);
+			path = ProductDetails;
+			sourceTree = "<group>";
+		};
+		F573C562238D03F000297556 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F573C57A238D481A00297556 /* ProductDetailProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F573C563238D03F300297556 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F573C578238D480800297556 /* ProductDetailRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F573C564238D03F600297556 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F573C576238D47F300297556 /* ProductDetailEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F573C565238D03FD00297556 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F573C574238D47E300297556 /* ProductDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F573C566238D040000297556 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F573C572238D47AA00297556 /* ProductDetailInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F573C567238D040100297556 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F573C570238D479300297556 /* ProductDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F574BD2323842D9B00179380 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F574BD2C23842E2700179380 /* LoginRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F574BD2423842D9E00179380 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F574BD1F2384040200179380 /* LoginEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F574BD2523842DA200179380 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F574BD2A23842E0600179380 /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F574BD2623842DA300179380 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F574BD2823842DEC00179380 /* LoginInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F574BD2723842DA900179380 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5264CA3237BF13C0012666B /* LoginView.swift */,
+			);
+			name = View;
+			path = "New Group4";
+			sourceTree = "<group>";
+		};
+		F574BD2E23842E4800179380 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F574BD2F23842E5B00179380 /* Protocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F57E300F238BA92D00430A33 /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				F57E3016238BA95E00430A33 /* View */,
+				F57E3015238BA95C00430A33 /* Interactor */,
+				F57E3014238BA95900430A33 /* Presenter */,
+				F57E3013238BA95100430A33 /* Entity */,
+				F57E3012238BA94F00430A33 /* Router */,
+				F57E3011238BA94B00430A33 /* Protocol */,
+			);
+			path = Drawer;
+			sourceTree = "<group>";
+		};
+		F57E3011238BA94B00430A33 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F57E3021238BAC8D00430A33 /* MenuProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F57E3012238BA94F00430A33 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F57E301F238BAC8200430A33 /* MenuRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F57E3013238BA95100430A33 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F57E301D238BAC7700430A33 /* MenuEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F57E3014238BA95900430A33 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F57E301B238BAC6900430A33 /* Menu_Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F57E3015238BA95C00430A33 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F57E3019238BAC5B00430A33 /* Menu_Interactor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F57E3016238BA95E00430A33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F57E3017238BAC4500430A33 /* MenuView.swift */,
+				F57E3023238BAF6E00430A33 /* MenuCell.xib */,
+				F57E3025238BAF7C00430A33 /* MenuCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F57E3027238BC06B00430A33 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				F57E302E238BC08A00430A33 /* View */,
+				F57E302D238BC08800430A33 /* Interactor */,
+				F57E302C238BC08600430A33 /* Presenter */,
+				F57E302B238BC08400430A33 /* Entity */,
+				F57E302A238BC08200430A33 /* Router */,
+				F57E3029238BC08000430A33 /* Protocol */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		F57E3029238BC08000430A33 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F573C56A238D047700297556 /* ProductListProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F57E302A238BC08200430A33 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F573C568238D044C00297556 /* ProductListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F57E302B238BC08400430A33 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F57E3035238BCCDB00430A33 /* ProductListEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F57E302C238BC08600430A33 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F573C56E238D04AD00297556 /* ProductListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F57E302D238BC08800430A33 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F573C56C238D049E00297556 /* ProductListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F57E302E238BC08A00430A33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F57E302F238BC0C600430A33 /* ProductListView.swift */,
+				F57E3031238BC11E00430A33 /* ProductListCell.xib */,
+				F57E3033238BC12800430A33 /* ProductListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F59404412386A4820022585E /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				F59404482386A49D0022585E /* View */,
+				F59404472386A49B0022585E /* Interactor */,
+				F59404462386A4980022585E /* Presenter */,
+				F59404452386A4940022585E /* Entity */,
+				F59404442386A4920022585E /* Router */,
+				F59404432386A4900022585E /* Protocol */,
+			);
+			path = ChangePassword;
+			sourceTree = "<group>";
+		};
+		F59404432386A4900022585E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F59404532386A5D60022585E /* ChangePasswordProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F59404442386A4920022585E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F594044F2386A51B0022585E /* changePasswordRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F59404452386A4940022585E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F59404512386A5C30022585E /* ChangePasswordEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F59404462386A4980022585E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F594044D2386A5050022585E /* ChangePasswordPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F59404472386A49B0022585E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F594044B2386A4F30022585E /* ChangePasswordInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F59404482386A49D0022585E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F59404492386A4E30022585E /* ChangePasswordView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5CFE21C2387BF1F0088CB71 /* SingletonManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SingletonManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5264C9D237BF13C0012666B /* NeoStore_VIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5264CB0237BF13E0012666B /* Build configuration list for PBXNativeTarget "NeoStore_VIPER" */;
+			buildPhases = (
+				45F3201583F7ED5FCECB2865 /* [CP] Check Pods Manifest.lock */,
+				F5264C9A237BF13C0012666B /* Sources */,
+				F5264C9B237BF13C0012666B /* Frameworks */,
+				F5264C9C237BF13C0012666B /* Resources */,
+				A1DDA0FC276ECB3B9614E7A3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeoStore_VIPER;
+			productName = NeoStore_VIPER;
+			productReference = F5264C9E237BF13C0012666B /* NeoStore_VIPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5264C96237BF13C0012666B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = webwerks2;
+				TargetAttributes = {
+					F5264C9D237BF13C0012666B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F5264C99237BF13C0012666B /* Build configuration list for PBXProject "NeoStore_VIPER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5264C95237BF13C0012666B;
+			productRefGroup = F5264C9F237BF13C0012666B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5264C9D237BF13C0012666B /* NeoStore_VIPER */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5264C9C237BF13C0012666B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5264CAC237BF13E0012666B /* LaunchScreen.storyboard in Resources */,
+				F57E3032238BC11E00430A33 /* ProductListCell.xib in Resources */,
+				F5264CA9237BF13E0012666B /* Assets.xcassets in Resources */,
+				F57E3024238BAF6E00430A33 /* MenuCell.xib in Resources */,
+				F5264CA7237BF13C0012666B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45F3201583F7ED5FCECB2865 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeoStore_VIPER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1DDA0FC276ECB3B9614E7A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoStore_VIPER/Pods-NeoStore_VIPER-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeoStore_VIPER/Pods-NeoStore_VIPER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5264C9A237BF13C0012666B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57E3036238BCCDB00430A33 /* ProductListEntity.swift in Sources */,
+				F57E3030238BC0C600430A33 /* ProductListView.swift in Sources */,
+				F5577EEA2385872B00300CFA /* ForgotPasswordEntity.swift in Sources */,
+				F574BD2B23842E0600179380 /* LoginPresenter.swift in Sources */,
+				F57E3020238BAC8200430A33 /* MenuRouter.swift in Sources */,
+				F5577EDD23855A1700300CFA /* HomeInteractor.swift in Sources */,
+				F53F0D65237C0FA300105B73 /* RegisterPresenter.swift in Sources */,
+				F5577EDF23855A2500300CFA /* HomePresenter.swift in Sources */,
+				F55E8A64238E992B00DB1C89 /* HomeVC.swift in Sources */,
+				F53F0D67237C103900105B73 /* RegisterEntity.swift in Sources */,
+				F574BD2D23842E2700179380 /* LoginRouter.swift in Sources */,
+				F594044A2386A4E30022585E /* ChangePasswordView.swift in Sources */,
+				F574BD1A2383F74B00179380 /* FirstCollectionViewCell.swift in Sources */,
+				F594044E2386A5050022585E /* ChangePasswordPresenter.swift in Sources */,
+				F570F0BB2386688A00043B57 /* ForgotPasswordInteractor.swift in Sources */,
+				F59404502386A51B0022585E /* changePasswordRouter.swift in Sources */,
+				F573C56D238D049E00297556 /* ProductListInteractor.swift in Sources */,
+				F57E3034238BC12800430A33 /* ProductListCell.swift in Sources */,
+				F574BD3023842E5B00179380 /* Protocol.swift in Sources */,
+				F57E301C238BAC6900430A33 /* Menu_Presenter.swift in Sources */,
+				F570F0C323866A9F00043B57 /* ForgotPasswordRouter.swift in Sources */,
+				F573C57B238D481A00297556 /* ProductDetailProtocol.swift in Sources */,
+				F573C571238D479300297556 /* ProductDetailView.swift in Sources */,
+				F573C56B238D047700297556 /* ProductListProtocol.swift in Sources */,
+				F568135D238292E000617DB2 /* RegisterProtocol.swift in Sources */,
+				F55E8A60238E98C900DB1C89 /* ContainerVC.swift in Sources */,
+				F53F0D61237C06E000105B73 /* RegisterView.swift in Sources */,
+				F5264CA4237BF13C0012666B /* LoginView.swift in Sources */,
+				F5577EE823857EBC00300CFA /* ForgotPasswordView.swift in Sources */,
+				F53F0D63237C0F5D00105B73 /* RegisterInteractor.swift in Sources */,
+				F573C579238D480800297556 /* ProductDetailRouter.swift in Sources */,
+				F53F0D69237C11C100105B73 /* RegisterRouter.swift in Sources */,
+				F57E3026238BAF7C00430A33 /* MenuCell.swift in Sources */,
+				F574BD1E2383FC0D00179380 /* SecondCollectionViewCell.swift in Sources */,
+				F574BD2923842DEC00179380 /* LoginInteractor.swift in Sources */,
+				F573C573238D47AA00297556 /* ProductDetailInteractor.swift in Sources */,
+				F573C56F238D04AD00297556 /* ProductListPresenter.swift in Sources */,
+				F594044C2386A4F30022585E /* ChangePasswordInteractor.swift in Sources */,
+				F5264CA2237BF13C0012666B /* AppDelegate.swift in Sources */,
+				F570F0BD238668B300043B57 /* ForgotPasswordPresenter.swift in Sources */,
+				F5CFE21E2387C0750088CB71 /* SingletonManager.swift in Sources */,
+				F57E3022238BAC8D00430A33 /* MenuProtocol.swift in Sources */,
+				F5577EE123855A3500300CFA /* HomeEntity.swift in Sources */,
+				F5577EE523855A4F00300CFA /* HomeProtocol.swift in Sources */,
+				F574BD1C2383F77700179380 /* HomeVc.swift in Sources */,
+				F55272CF237D3CC5002F8AB1 /* File1.swift in Sources */,
+				F574BD202384040200179380 /* LoginEntity.swift in Sources */,
+				F55272CD237D3758002F8AB1 /* Utilities.swift in Sources */,
+				F59404522386A5C30022585E /* ChangePasswordEntity.swift in Sources */,
+				F573C577238D47F300297556 /* ProductDetailEntity.swift in Sources */,
+				F57E3018238BAC4500430A33 /* MenuView.swift in Sources */,
+				F55E8A62238E990E00DB1C89 /* SideMenuVC.swift in Sources */,
+				F570F0C1238668FD00043B57 /* Protocol_Forgot.swift in Sources */,
+				F59404542386A5D60022585E /* ChangePasswordProtocol.swift in Sources */,
+				F573C569238D044C00297556 /* ProductListRouter.swift in Sources */,
+				F57E301E238BAC7700430A33 /* MenuEntity.swift in Sources */,
+				F5577EE323855A4300300CFA /* HomeRouter.swift in Sources */,
+				F573C575238D47E300297556 /* ProductDetailPresenter.swift in Sources */,
+				F57E301A238BAC5B00430A33 /* Menu_Interactor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5264CA5237BF13C0012666B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5264CA6237BF13C0012666B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5264CAA237BF13E0012666B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5264CAB237BF13E0012666B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5264CAE237BF13E0012666B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5264CAF237BF13E0012666B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5264CB1237BF13E0012666B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 766885EDF2ABBF44C4B4582C /* Pods-NeoStore_VIPER.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NeoStore_VIPER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webwerks.NeoStore-VIPER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5264CB2237BF13E0012666B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB09285FD588EDA58AC195D /* Pods-NeoStore_VIPER.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NeoStore_VIPER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webwerks.NeoStore-VIPER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5264C99237BF13C0012666B /* Build configuration list for PBXProject "NeoStore_VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5264CAE237BF13E0012666B /* Debug */,
+				F5264CAF237BF13E0012666B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5264CB0237BF13E0012666B /* Build configuration list for PBXNativeTarget "NeoStore_VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5264CB1237BF13E0012666B /* Debug */,
+				F5264CB2237BF13E0012666B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5264C96237BF13C0012666B /* Project object */;
+}
